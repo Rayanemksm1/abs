@@ -34,7 +34,7 @@
                 ?>
             <tr>
                 <th><?php echo $i; ?></th>
-                <td><?php echo $due_amount; ?> D.T.</td>
+                <td><?php echo $due_amount; ?> €</td>
                 <td><a href="my_account.php?commande=<?php echo $invoice_no ;?>"><?php echo $invoice_no; ?></a></td>
                 <td><?php echo $order_date; ?></td>
                 <td><?php echo $order_status; ?></td>

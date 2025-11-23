@@ -40,7 +40,7 @@ if(isset($_POST["action"]))
 			$output .= '
 			<li class="list-item">
 			<div class="list-content">
-			<a href="'.$row['product_url'].'">
+			<a href="details.php?pro_id='.$row['product_url'].'">
 			  <img src="images/products/'. $row['product_img'] .'" alt="image of '. $row['product_title'] .'" />
 			</a>
 			  <a align="center" href="'.$row['product_url'].'">'. $row['product_title'] .'</a>
